@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
   name: git-crypt
@@ -6,13 +6,13 @@ package:
 
 source:
   url: https://github.com/AGWA/git-crypt/archive/{{ version }}.tar.gz
-  sha256: 777c0c7aadbbc758b69aff1339ca61697011ef7b92f1d1ee9518a8ee7702bb78
+  sha256: 2210a89588169ae9a54988c7fdd9717333f0c6053ff704d335631a387bd3bcff
   patches:
     - prefix.patch
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
@@ -31,7 +31,7 @@ about:
   home: https://www.agwa.name/projects/git-crypt/
   license: GPL-3.0
   license_file: COPYING
-  summary: 'Transparent file encryption in git'
+  summary: Transparent file encryption in git
 
 extra:
   recipe-maintainers:
