@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://www.agwa.name/projects/git-crypt/
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_file: COPYING
   summary: Transparent file encryption in git
 
